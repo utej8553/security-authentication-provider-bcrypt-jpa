@@ -93,27 +93,3 @@ passwordEncoder.encode("myPassword");
 
 ---
 
-## 🧪 6. Common Errors & Fixes
-
-### ❌ `No property 'username' found for type 'user'`
-
-**Fix:** Make sure your `User` entity has a field named exactly `username`.
-
-```java
-@Column(nullable = false, unique = true)
-private String username;
-```
-
----
-
-### ❌ `Could not find UserDetailsService bean`
-
-**Fix:** Annotate your `UserService` with `@Service` and ensure it's in a component-scanned package.
-
----
-
-### ❌ `Not a managed type: class com.example.model.User`
-
-**Fix:** Ensure your entity is annotated with `@Entity` and scanned by `@EnableJpaRepositories`.
-
----
