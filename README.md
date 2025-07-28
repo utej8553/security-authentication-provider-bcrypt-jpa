@@ -1,6 +1,6 @@
 # 🛡️ Spring Security Authentication
 
-This document summarizes the core Spring Security concepts learned and implemented today, including DAO authentication, BCrypt encoding, and a custom `UserDetailsService`.
+core Spring Security concepts learned and implementation, including DAO authentication, BCrypt encoding, and a custom `UserDetailsService`.
 
 ---
 
