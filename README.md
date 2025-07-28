@@ -1,4 +1,4 @@
-# 🛡️ Spring Security Authentication - Daily Progress (July 28, 2025)
+# 🛡️ Spring Security Authentication
 
 This document summarizes the core Spring Security concepts learned and implemented today, including DAO authentication, BCrypt encoding, and a custom `UserDetailsService`.
 
